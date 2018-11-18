@@ -59,8 +59,10 @@ Step 3:  run style transfer
 
 4. **artistic and photo-realistic style transfer**
 
-**artistic**
+#### artistic:
+
 ![artistic](https://github.com/EndyWon/GLStyleNet/blob/master/examples/artistic.png)
 
-**photo-realistic**
+#### photo-realistic:
+
 ![photo-realistic](https://github.com/EndyWon/GLStyleNet/blob/master/examples/photo-realistic.png)
