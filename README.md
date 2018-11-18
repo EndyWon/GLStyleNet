@@ -51,9 +51,12 @@ Step 3:  run style transfer
 
 `python GLStyleNet.py --content Chinese/content.jpg --content-mask Chinese/content_sem.png --style Chinese/style.jpg --style-mask Chinese/style_sem.png --content-weight 10 --local-weight 500 --semantic-weight 2.5 --global-weight 0.5 --init content --device gpu`
 
-![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/Chinese.png)
+![Chinese](https://github.com/EndyWon/GLStyleNet/blob/master/examples/Chinese.png)
 
 4. **artistic and photo-realistic style transfer**
 
-![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/artistic.png)
-![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/photo-realistic.png)
+**artistic**
+![artistic](https://github.com/EndyWon/GLStyleNet/blob/master/examples/artistic.png)
+
+**photo-realistic**
+![photo-realistic](https://github.com/EndyWon/GLStyleNet/blob/master/examples/photo-realistic.png)
