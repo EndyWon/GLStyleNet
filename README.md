@@ -1,5 +1,6 @@
 
 # GLStyleNet
+The code was written by **Zhizhong Wang（Endy Won)** and **Dongjing Liu**.
 ### Environment Required:
 - Python 3.6
 - TensorFlow 1.4.0
@@ -60,6 +61,3 @@ Step 3:  run style transfer
 
 **photo-realistic**
 ![photo-realistic](https://github.com/EndyWon/GLStyleNet/blob/master/examples/photo-realistic.png)
-
-
-The code was written by **Zhizhong Wang（Endy Won)** and **Dongjing Liu**.
