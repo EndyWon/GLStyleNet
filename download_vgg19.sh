@@ -1,3 +1,3 @@
-URL=https://github.com/EndyWon/GLStyleNet/releases/vgg19.pkl.bz2
+URL=https://github.com/EndyWon/GLStyleNet/releases/download/v1.0/vgg19.pkl.bz2
 FILE=./vgg19.pkl.bz2
-wget -N $URL -O $FILE
+wget $URL -O $FILE
