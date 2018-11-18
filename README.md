@@ -1,6 +1,6 @@
 
 # GLStyleNet
-The code was written by **Zhizhong Wang（Endy Won)** and **Dongjing Liu**.
+**[update 11/18/2018]**The code was written by **Zhizhong Wang（Endy Won)** and **Dongjing Liu**.
 
 
 paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://github.com/EndyWon/GLStyleNet/edit/master/README.md)
