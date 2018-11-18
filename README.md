@@ -8,8 +8,8 @@ If you want to run on your GPU, make sure that the memory of your GPU is large e
 Step 1: clone this repo
 
 
-`git clone https://github.com/EndyWon/GLStyleNet<br>   
-    cd GLStyleNet`
+`git clone https://github.com/EndyWon/GLStyleNet`  
+`cd GLStyleNet`
 
 
 Step 2: 
