@@ -53,3 +53,7 @@ Step 3:  run style transfer
 
 ![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/Chinese.png)
 
+4. **artistic and photo-realistic style transfer**
+
+![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/artistic.png)
+![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/photo-realistic.png)
