@@ -16,7 +16,7 @@ Step 1: clone this repo
 Step 2: download pre-trained vgg19 model
 
 
-`bash ./download_vgg19.sh`
+`bash download_vgg19.sh`
 
 
 Step 3:  run style transfer
