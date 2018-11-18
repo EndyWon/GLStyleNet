@@ -1,3 +1,4 @@
+
 # GLStyleNet
 ### Environment Required:
 - Python 3.6
@@ -12,4 +13,31 @@ Step 1: clone this repo
 `cd GLStyleNet`
 
 
-Step 2: 
+Step 2: download pre-trained vgg19 model
+
+
+`bash ./download_vgg19.sh`
+
+
+Step 3:  run style transfer
+1. **Script Parameters**
+  * `--content`  : content image path
+  * `--content-mask`  : content image semantic mask
+  * `--style`  : style image path
+  * `--style-mask`  : style image semantic mask
+  * `--content-weight`  : weight of content, default=10
+  * `--local-weight`  : weight of local style loss
+  * `--semantic-weight`  : weight of semantic map constraint
+  * `--global-weight`  : weight of global style loss
+  * `--output`  : output image path
+  * `--smoothness`  : weight of image smoothing scheme
+  * `-init`  : image type to initialize, value='noise' or 'content' or 'style', default='content'
+  * `--iterations`   : number of iterations, default=500
+  * `--device`  : devices, value='gpu'(all available GPUs) or 'gpui'(e.g. gpu0) or 'cpu', default='gpu'
+  * `--class-num`   : count of semantic mask classes, default=5
+
+2. **portrait style transfer** (an example)
+
+
+`python GLStyleNet.py --content portrait/Seth.jpg --content-mask portrait/Seth_sem.png --style portrait/Gogh.jpg --style-mask portrait/Gogh_sem.png --content-weight 10 --local-weight 500 --semantic-weight 10 --global-weight 1 --init style --device gpu`
+
