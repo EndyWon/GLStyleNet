@@ -49,7 +49,7 @@ Step 3:  run style transfer
 3. **Chinese ancient painting style transfer** (an example)
 
 
-`python GLStyleNet.py --content portrait/Seth.jpg --content-mask portrait/Seth_sem.png --style portrait/Gogh.jpg --style-mask portrait/Gogh_sem.png --content-weight 10 --local-weight 500 --semantic-weight 10 --global-weight 1 --init style --device gpu`
+`python GLStyleNet.py --content Chinese/content.jpg --content-mask Chinese/content_sem.png --style Chinese/style.jpg --style-mask Chinese/style_sem.png --content-weight 10 --local-weight 500 --semantic-weight 2.5 --global-weight 0.5 --init content --device gpu`
 
-![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/portraits.png)
+![portraits](https://github.com/EndyWon/GLStyleNet/blob/master/examples/Chinese.png)
 
