@@ -3,7 +3,7 @@
 **[update 11/18/2018]** The code was written by **Zhizhong Wang（Endy Won)** and **Dongjing Liu** based on [Champandard's code](https://github.com/alexjc/neural-doodle).
 
 
-paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://github.com/EndyWon/GLStyleNet/edit/master/README.md)
+paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260)
 ### Environment Required:
 - Python 3.6
 - TensorFlow 1.4.0
