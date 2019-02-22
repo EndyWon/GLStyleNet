@@ -7,6 +7,7 @@ paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyr
 ### Environment Required:
 - Python 3.6
 - TensorFlow 1.4.0
+- CUDA 8.0
 
 If you want to run on your GPU, make sure that the memory of your GPU is **large enough**, otherwise you may **not be able to**  process enough large pictures.
 ### Getting Started
