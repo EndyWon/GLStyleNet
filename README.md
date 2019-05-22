@@ -1,6 +1,6 @@
 
 # GLStyleNet
-**[update 11/18/2018]** The code was written by **Zhizhong Wang（Endy Won)** and **Dongjing Liu** based on [Champandard's code](https://github.com/alexjc/neural-doodle).
+**[update 11/18/2018]** The code was written by **Zhizhong Wang** and **Dongjing Liu** based on [Champandard's code](https://github.com/alexjc/neural-doodle).
 
 
 paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260)
@@ -9,7 +9,7 @@ paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyr
 - TensorFlow 1.4.0
 - CUDA 8.0
 
-If you want to run on your GPU, make sure that the memory of your GPU is **large enough**, otherwise you may **not be able to**  process enough large pictures.
+If you want to run on your GPU, make sure that the memory of your GPU is **large enough**, otherwise you may **not be able to**  process large enough pictures.
 ### Getting Started
 Step 1: clone this repo
 
