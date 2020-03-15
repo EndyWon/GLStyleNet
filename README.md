@@ -36,7 +36,7 @@ Step 3:  run style transfer
   * `--global-weight`  : weight of global style loss
   * `--output`  : output image path
   * `--smoothness`  : weight of image smoothing scheme
-  * `-init`  : image type to initialize, value='noise' or 'content' or 'style', default='content'
+  * `--init`  : image type to initialize, value='noise' or 'content' or 'style', default='content'
   * `--iterations`   : number of iterations, default=500
   * `--device`  : devices, value='gpu'(all available GPUs) or 'gpui'(e.g. gpu0) or 'cpu', default='gpu'
   * `--class-num`   : count of semantic mask classes, default=5
