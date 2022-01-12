@@ -10,7 +10,7 @@ Arxiv paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Loc
 - TensorFlow 1.4.0
 - CUDA 8.0
 
-### Getting Started
+### Getting Started:
 Step 1: clone this repo
 
 
