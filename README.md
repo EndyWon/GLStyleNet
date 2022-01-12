@@ -1,15 +1,15 @@
 
 # GLStyleNet
-**[update 11/18/2018]** The code was written by **Zhizhong Wang** and **Dongjing Liu** based on [Champandard's code](https://github.com/alexjc/neural-doodle).
+**[update 1/12/2022]**
 
+paper: [GLStyleNet: Exquisite Style Transfer Combining Global and Local Pyramid Features](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2019.0844), published in [IET Computer Vision 2020](https://digital-library.theiet.org/content/journals/iet-cvi)
 
-paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260)
+Arxiv paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260)
 ### Environment Required:
 - Python 3.6
 - TensorFlow 1.4.0
 - CUDA 8.0
 
-If you want to run on your GPU, make sure that the memory of your GPU is **large enough**, otherwise you may **not be able to**  process large enough pictures.
 ### Getting Started
 Step 1: clone this repo
 
@@ -67,3 +67,24 @@ Step 3:  run style transfer
 #### photo-realistic:
 
 ![photo-realistic](https://github.com/EndyWon/GLStyleNet/blob/master/examples/photo-realistic.png)
+
+
+## Citation:
+
+If you find this code useful for your research, please cite the paper:
+
+```
+@article{wang2020glstylenet,
+  title={GLStyleNet: exquisite style transfer combining global and local pyramid features},
+  author={Wang, Zhizhong and Zhao, Lei and Lin, Sihuan and Mo, Qihang and Zhang, Huiming and Xing, Wei and Lu, Dongming},
+  journal={IET Computer Vision},
+  volume={14},
+  number={8},
+  pages={575--586},
+  year={2020},
+  publisher={IET}
+}
+```
+
+## Acknowledgement:
+The code was written based on [Champandard's code](https://github.com/alexjc/neural-doodle).
