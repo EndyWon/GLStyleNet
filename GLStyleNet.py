@@ -355,7 +355,7 @@ def prepare_mask(content_mask, style_mask, n):
     return diag[y1].astype(np.float32), diag[y2].astype(np.float32)
 
 def main():
-    parser = argparse.ArgumentParser(description='GLStyleNet: transfer style of a image onto a content image.',
+    parser = argparse.ArgumentParser(description='GLStyleNet: transfer style of an image onto a content image.',
                                     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     add_arg = parser.add_argument
 
