@@ -6,8 +6,6 @@ paper: [GLStyleNet: Exquisite Style Transfer Combining Global and Local Pyramid 
 
 Arxiv paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260).
 
-This work is improved upon [Semantic Style Transfer and Turning Two-Bit Doodles into Fine Artworks](https://arxiv.org/abs/1603.01768). [[code](https://github.com/alexjc/neural-doodle)]
-
 ### Environment Required:
 - Python 3.6
 - TensorFlow 1.4.0
