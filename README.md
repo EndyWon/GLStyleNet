@@ -2,9 +2,12 @@
 # GLStyleNet
 **[update 1/12/2022]**
 
-paper: [GLStyleNet: Exquisite Style Transfer Combining Global and Local Pyramid Features](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2019.0844), published in [IET Computer Vision 2020](https://digital-library.theiet.org/content/journals/iet-cvi)
+paper: [GLStyleNet: Exquisite Style Transfer Combining Global and Local Pyramid Features](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/iet-cvi.2019.0844), published in [IET Computer Vision 2020](https://digital-library.theiet.org/content/journals/iet-cvi).
 
-Arxiv paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260)
+Arxiv paper: [GLStyleNet: Higher Quality Style Transfer Combining Global and Local Pyramid Features](https://arxiv.org/abs/1811.07260).
+
+This work is improved upon [Semantic Style Transfer and Turning Two-Bit Doodles into Fine Artworks](https://arxiv.org/abs/1603.01768). [[code](https://github.com/alexjc/neural-doodle)]
+
 ### Environment Required:
 - Python 3.6
 - TensorFlow 1.4.0
